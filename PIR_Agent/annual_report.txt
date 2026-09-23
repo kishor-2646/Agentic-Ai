@@ -1,0 +1,31 @@
+AARAV TECH LTD — ANNUAL REPORT FY2025-26 (MOCK DATA FOR WORKSHOP DEMO)
+This is fictional sample data created for a workshop project. It does not describe a real company.
+All figures below are in INR Crores unless stated otherwise. 1 Crore = 10 million.
+
+QUARTERLY REVENUE (FY2025-26)
+Q1 (Apr-Jun 2025) Revenue: 842 Crore INR
+Q2 (Jul-Sep 2025) Revenue: 915 Crore INR
+Q3 (Oct-Dec 2025) Revenue: 968 Crore INR
+Q4 (Jan-Mar 2026) Revenue: 1,024 Crore INR
+Full Year FY2025-26 Total Revenue: 3,749 Crore INR
+Full Year FY2024-25 Total Revenue (prior year): 3,180 Crore INR
+Year-over-year revenue growth: 17.9 percent
+
+PROFITABILITY
+Net Profit FY2025-26: 612 Crore INR
+Net Profit Margin FY2025-26: 16.3 percent
+Earnings Per Share (EPS) FY2025-26: 24.80 INR per share
+Earnings Per Share (EPS) FY2024-25 (prior year): 21.10 INR per share
+
+BALANCE SHEET HIGHLIGHTS (as of March 31, 2026)
+Total Assets: 5,210 Crore INR
+Total Liabilities: 1,340 Crore INR
+Shareholders Equity: 3,870 Crore INR
+Cash and Cash Equivalents: 890 Crore INR
+
+DIVIDEND
+The Board declared a final dividend of 6.50 INR per share for FY2025-26.
+
+MANAGEMENT OUTLOOK
+Management has guided for 14 to 16 percent revenue growth in FY2026-27, driven by expansion in
+the healthcare analytics practice and two new client wins in the European retail sector.
