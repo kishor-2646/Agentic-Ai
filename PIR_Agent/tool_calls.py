@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 import os
 import requests
 
+load_dotenv()
+
 print("All libraries imported")
 
 # Tool 1 : Financial document retriever tool 
@@ -24,7 +26,15 @@ def get_financial_data(query: str) -> str:
 def get_stock_price(ticker: str) -> str:
     """Fetches the latest stock price using Alpha Vantage."""
 
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=7RTZXY1VAWDJT3Y8'
+    api_key = os.getenv("ALPHA_VANTAGE_API_KEY")
+    if not api_key:
+        return "Error: ALPHA_VANTAGE_API_KEY not set in .env file."
+
+    url = (
+        f"https://www.alphavantage.co/query"
+        f"?function=TIME_SERIES_INTRADAY&symbol={ticker}"
+        f"&interval=5min&apikey={api_key}"
+    )
     response = requests.get(url)
     return response.json()
 

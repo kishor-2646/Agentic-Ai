@@ -38,11 +38,23 @@ DEMO QUERIES
 - is pe ratio 12.5 fair
 
 
-- No .env / API keys needed yet since yfinance is key-free. If you swap to
-  Alpha Vantage or add the Adzuna-style pattern back, bring back python-dotenv
-  + os.getenv the way tool_calls.py's job-search version did.
+ENVIRONMENT VARIABLES
+
+This project uses Alpha Vantage for live stock data. You need a .env file
+in the repo root with the following key:
+
+    ALPHA_VANTAGE_API_KEY=<your-key-here>
+
+See .env.example for the template. Copy it to .env and fill in your key.
+Never commit the real .env — it is listed in .gitignore.
 
 
+WHAT I LEARNED
 
-
+I accidentally committed a .env file containing real API keys to a public repo.
+Git history preserves every committed file, so simply deleting it isn't enough —
+the keys had to be rotated (regenerated) immediately. Lesson: always add .env to
+.gitignore before the first commit, use os.getenv() in code, and provide a
+.env.example so collaborators know which variables are needed without seeing
+real values.
 
